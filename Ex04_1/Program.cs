@@ -2,7 +2,7 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 //Возведение в степень числа
-int upow(int a, int b)
+int Upow(int a, int b)
 {
     int result = a;
     for (int i = 1; i < b; i++)
@@ -19,4 +19,4 @@ int[] ReadInt(string text)
 }
 //////////////////////////////////////////////////////////////////////
 int[] ab = ReadInt("Введите два числа через пробел:");
-System.Console.WriteLine($"{ab[0]} в степени {ab[1]} равно {upow(ab[0], ab[1])}");
+System.Console.WriteLine($"{ab[0]} в степени {ab[1]} равно {Upow(ab[0], ab[1])}");
